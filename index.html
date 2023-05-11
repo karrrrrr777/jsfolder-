@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+<div id="root"></div>
+<button class="stoped btn btn-success"id="start-joke">click text or stop text</button><br>
+<button class="list btn btn-dark" id="btn">add to list or remove</button>
+<button class="btn btn-primary" id="show-table">show or hide list</button>
+<button class="btn btn-danger" id="clear-list">clear all list</button>
+
+<table class="table table-bordered table-dark" id="joke-list-table" >
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Joke</th>
+        <th scope="col">delete</th>
+    </tr>
+    </thead>
+    <tbody id="joke-list-body">
+    </tbody>
+</table>
+<script src="./index.js"></script>
+</body>
+
+</html>

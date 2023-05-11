@@ -1,0 +1,28 @@
+#start-joke {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+#btn {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+#show-table {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+#clear-list {
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+#joke-list-table{
+    display: none;
+    margin-top: 40px;
+}
